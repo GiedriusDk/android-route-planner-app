@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+         />
+
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/outdoor_toggle_buttonGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:singleSelection="true"
+        app:checkedButton="@+id/btn_walking"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btn_walking"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/walking_icon"
+            android:backgroundTint="@color/green"
+            style="@style/Widget.MaterialComponents.Button"
+            app:shapeAppearance="@style/CustomShapeAppearance"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/btn_bus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bus_icon"
+            android:backgroundTint="@color/white"
+            style="@style/Widget.MaterialComponents.Button"
+            app:shapeAppearance="@style/CustomShapeAppearance"
+            />
+
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sąrašas"
+            android:background="@drawable/rectangle_button_background" />
+
+        <Button
+            android:id="@+id/btn_algorithm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sudaryti Maršrušą"
+            android:background="@drawable/rectangle_button_background" />
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btn_open_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/menu_icon"
+        android:backgroundTint="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/side_panel"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="Autobusų Maršrutai"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/transit_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

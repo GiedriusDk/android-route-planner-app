@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="churches_array">
+        <item>Bažnyčios</item>
+        <item>Sub-item 1</item>
+        <item>Sub-item 2</item>
+        <!-- Add more sub-items here -->
+    </string-array>
+</resources>
