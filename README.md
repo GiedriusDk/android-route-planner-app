@@ -47,9 +47,8 @@ Pilnas projekto PDF aprašymas (su įrankiais, analizėmis, technologijomis ir d
 
 ## 🖼️ Ekrano nuotraukos
 
-*(Pridėkite čia kelis `screenshots` – pvz. pagrindinis ekranas, maršrutas, objektų sąrašas)*
+![Screenshot_20240615_143640_My Application](https://github.com/user-attachments/assets/e29099fd-79b3-47ca-ada0-578257fd0ee1)
+![Screenshot_20240617_181055_My Application](https://github.com/user-attachments/assets/d510df37-8c15-49bd-8134-f2af09188b27)
+![Screenshot_20240616_194413_My Application](https://github.com/user-attachments/assets/b9eb1f39-819e-47f9-a0d6-d26500750c8f)
+![Screenshot_20240616_194526_My Application](https://github.com/user-attachments/assets/94392d68-fad5-4c21-b82c-6083be2f7beb)
 
-```markdown
-![Pagrindinis ekranas](screenshots/home.png)
-![Objektų sąrašas](screenshots/list.png)
-![Maršrutas su autobusais](screenshots/route.png)
