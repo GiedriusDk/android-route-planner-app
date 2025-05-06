@@ -1,57 +1,55 @@
-# 📱 Android maršrutų sudarymo programėlė
+# 🗺️ Maršrutų Planavimo Android Aplikacija
 
-Ši programėlė leidžia vartotojui suplanuoti maršrutą pasirinkus objektus Vilniuje. Naudojamas Google Maps API bei paprastas optimizavimo algoritmas (`Nearest Neighbor`) maršrutui sudaryti.
+Kursinio darbo metu sukurta mobilioji Android aplikacija, leidžianti sudaryti optimalų maršrutą tarp lankytinų vietų Vilniuje. Vartotojas gali pasirinkti dominančius objektus, matyti juos žemėlapyje ir gauti optimalų keliavimo planą pėsčiomis arba viešuoju transportu.
 
----
+## 🔧 Naudotos technologijos
 
-## 🚀 Funkcionalumas
+- **Programavimo kalba:** Java  
+- **IDE:** Android Studio  
+- **Žemėlapiai:** Google Maps API, Directions API  
+- **UI dizainas:** XML  
+- **Debesis:** Google Cloud Console  
 
-- Objektų pasirinkimas iš sąrašo ir atvaizdavimas žemėlapyje
-- Optimalus maršrutas su žymekliais ir linijomis
-- Viešojo transporto atvaizdavimas
-- Naudojamos JPG objektų nuotraukos
+## 🚀 Pagrindinės funkcijos
 
----
+- Objektų pasirinkimas iš sąrašo su kategorijomis
+- Maršruto sudarymas pagal artumiausią eiliškumą
+- Viešojo transporto integracija (autobusų maršrutai)
+- Žemėlapių ir maršrutų vizualizacija (raudonos ir žalios linijos)
+- Patogi ir aiški naudotojo sąsaja
 
-## 🛠 Naudotos technologijos
+## 📲 Instaliacija
 
-- **Java**, **Android Studio**
-- **Google Maps API**, **Directions API**
-- **Google Cloud Console**
-- **Git**
+1. Atsisiųskite `app-debug.apk` failą (jei įkeltas į repozitoriją).
+2. Perkelkite jį į savo Android įrenginį.
+3. Paleiskite failą ir sekite instaliacijos žingsnius.
+4. Alternatyviai: naudokite **virtualų Android įrenginį (AVD)** per Android Studio.
 
----
+_Daugiau informacijos rasite faile `instrukcija.txt`._
 
-## 📂 Projekto struktūra
+## 📁 Aplankų struktūra
 
-- `src/` – programos Java kodas, XML išdėstymas, resursai
-- `bin/` – sukompiliuota aplikacija (`.apk` failas)
-- `SKAITYK.txt` – bendra struktūros ir failų paaiškinimo santrauka
-- `instrukcija.txt` – kaip įdiegti `app-debug.apk` telefone ar virtualioje aplinkoje
-- `nuotoliniai_resursai.txt` – naudojamų API ir vaizdų resursų aprašymas
+- `src/` – visas programos šaltinio kodas (Java, XML ir t.t.)
+- `bin/` – sukompiliuoti failai
+- `res/` – aplikacijoje naudojami resursai (paveikslėliai ir pan.)
 
----
+## 🌐 Nuotoliniai resursai
 
-## 📥 Programos diegimas
+- **Google Maps API** – naudojamas žemėlapių rodymui ir maršrutų skaičiavimui  
+- **JPG formato vaizdai** – rodomi kaip objektų ikonos  
 
-1. Atsisiųskite `app-debug.apk` į Android įrenginį
-2. Paleiskite failą per failų tvarkyklę
-3. Sekite ekrane pateiktas instrukcijas
-4. Alternatyviai: naudokite virtualų Android įrenginį (žr. `instrukcija.txt`)
+_Daugiau informacijos rasite faile `nuotoliniai resursai.txt`._
 
----
+## 📖 Projekto dokumentacija
 
-## 📄 Papildomi dokumentai
+Pilnas projekto PDF aprašymas (su įrankiais, analizėmis, technologijomis ir dizainu):  
+📄 [Peržiūrėti projektą (PDF)](./Projektas-Maršrutas.pdf)
 
-- [`SKAITYK.txt`](SKAITYK.txt)
-- [`instrukcija.txt`](instrukcija.txt)
-- [`nuotoliniai_resursai.txt`](nuotoliniai_resursai.txt)
+## 🖼️ Ekrano nuotraukos
 
----
+*(Pridėkite čia kelis `screenshots` – pvz. pagrindinis ekranas, maršrutas, objektų sąrašas)*
 
-## 🧑‍💻 Autorius
-
-**Giedrius Dauknys**  
-3 kurso IT studentas – Vilniaus universitetas  
-Kursinis darbas, 2025 m.
-
+```markdown
+![Pagrindinis ekranas](screenshots/home.png)
+![Objektų sąrašas](screenshots/list.png)
+![Maršrutas su autobusais](screenshots/route.png)
