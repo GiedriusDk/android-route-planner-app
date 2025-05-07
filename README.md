@@ -1,55 +1,53 @@
-# 🗺️ Maršrutų Planavimo Android Aplikacija
+# 🗺️ Route Planning Android Application
 
-Kursinio darbo metu sukurta mobilioji Android aplikacija, leidžianti sudaryti optimalų maršrutą tarp lankytinų vietų Vilniuje. Vartotojas gali pasirinkti dominančius objektus, matyti juos žemėlapyje ir gauti optimalų keliavimo planą pėsčiomis arba viešuoju transportu.
+A mobile Android application developed as part of a course project, allowing users to generate an optimal route between points of interest in Vilnius. The user can select preferred locations, view them on a map, and receive an optimized travel plan for walking or public transport.
 
-## 🔧 Naudotos technologijos
+## 🔧 Technologies Used
 
-- **Programavimo kalba:** Java  
+- **Programming Language:** Java  
 - **IDE:** Android Studio  
-- **Žemėlapiai:** Google Maps API, Directions API  
-- **UI dizainas:** XML  
-- **Debesis:** Google Cloud Console  
+- **Maps:** Google Maps API, Directions API  
+- **UI Design:** XML  
+- **Cloud:** Google Cloud Console  
 
-## 🚀 Pagrindinės funkcijos
+## 🚀 Main Features
 
-- Objektų pasirinkimas iš sąrašo su kategorijomis
-- Maršruto sudarymas pagal artumiausią eiliškumą
-- Viešojo transporto integracija (autobusų maršrutai)
-- Žemėlapių ir maršrutų vizualizacija (raudonos ir žalios linijos)
-- Patogi ir aiški naudotojo sąsaja
+- Selection of objects from a categorized list
+- Route generation based on nearest-location priority
+- Integration with public transport (bus routes)
+- Map and route visualization (red and green lines)
+- Clean and user-friendly interface
 
-## 📲 Instaliacija
+## 📲 Installation
 
-1. Atsisiųskite `app-debug.apk` failą (jei įkeltas į repozitoriją).
-2. Perkelkite jį į savo Android įrenginį.
-3. Paleiskite failą ir sekite instaliacijos žingsnius.
-4. Alternatyviai: naudokite **virtualų Android įrenginį (AVD)** per Android Studio.
+1. Download the `app-debug.apk` file (if included in the repository).
+2. Transfer it to your Android device.
+3. Launch the file and follow the installation steps.
+4. Alternatively, use a **virtual Android device (AVD)** via Android Studio.
 
-_Daugiau informacijos rasite faile `instrukcija.txt`._
+_More details can be found in the `instrukcija.txt` file._
 
-## 📁 Aplankų struktūra
+## 📁 Folder Structure
 
-- `src/` – visas programos šaltinio kodas (Java, XML ir t.t.)
-- `bin/` – sukompiliuoti failai
-- `res/` – aplikacijoje naudojami resursai (paveikslėliai ir pan.)
+- `src/` – full application source code (Java, XML, etc.)
+- `bin/` – compiled binary files
+- `res/` – application resources (images, etc.)
 
-## 🌐 Nuotoliniai resursai
+## 🌐 External Resources
 
-- **Google Maps API** – naudojamas žemėlapių rodymui ir maršrutų skaičiavimui  
-- **JPG formato vaizdai** – rodomi kaip objektų ikonos  
+- **Google Maps API** – used for map display and route calculation  
+- **JPG images** – shown as icons for selected objects  
 
-_Daugiau informacijos rasite faile `nuotoliniai resursai.txt`._
+_More information is provided in the `nuotoliniai resursai.txt` file._
 
-## 📖 Projekto dokumentacija
+## 📖 Project Documentation
 
-Pilnas projekto PDF aprašymas (su įrankiais, analizėmis, technologijomis ir dizainu):  
-📄 [Peržiūrėti projektą (PDF)](./Projektas-Maršrutas.pdf)
+Full PDF documentation of the project (tools, analysis, technologies, and design):  
+📄 [View the project (PDF)](./Projektas-Maršrutas.pdf)
 
-## 🖼️ Ekrano nuotraukos
+## 🖼️ Screenshots
 
 <img src="https://github.com/user-attachments/assets/e29099fd-79b3-47ca-ada0-578257fd0ee1" width="400"/>
 <img src="https://github.com/user-attachments/assets/d510df37-8c15-49bd-8134-f2af09188b27" width="400"/>
 <img src="https://github.com/user-attachments/assets/b9eb1f39-819e-47f9-a0d6-d26500750c8f" width="400"/>
 <img src="https://github.com/user-attachments/assets/94392d68-fad5-4c21-b82c-6083be2f7beb" width="400"/>
-
-
