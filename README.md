@@ -42,7 +42,7 @@ _More information is provided in the `nuotoliniai resursai.txt` file._
 
 ## 📖 Project Documentation
 
-Full PDF documentation of the project (tools, analysis, technologies, and design):  
+Full PDF documentation (in Lithuanian):  
 📄 [View the project (PDF)](./Projektas-Maršrutas.pdf)
 
 ## 🖼️ Screenshots
